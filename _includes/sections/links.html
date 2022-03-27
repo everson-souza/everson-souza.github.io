@@ -22,16 +22,19 @@
             <p>{{ link.desc }}</p>
             <ul class="list-inline social-icon">
                 {% if link.github_username %}
-                <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://github.com/{{ link.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
                 {% endif %}
                 {% if link.linkedin_id %}
-                <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/{{ link.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                {% endif %}
+                {% if link.whatsapp %}
+                <li><a href="https://wa.me/{{ link.whatsapp }}" target="blank"><i class="fa fa-whatsapp"></i></a></li>
                 {% endif %}                
                 {% if link.email %}
-                <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
+                <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a></li>
                 {% endif %}
                 {% if link.cv %}
-                <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                <li><a href="{{ link.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
                 {% endif %}
             </ul>
         </div>
