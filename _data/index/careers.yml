@@ -1,30 +1,72 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Lakes Environmental
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: <strong class="career-bullets">•</strong> Create and maintain end-to-end tests using Selenium WebDriver in C# and further on using Cypress. <br> <b style="line-height:1.5">•</b> Develop coding standards and testing approaches, constantly enhancing the tests applying best practices across multiple projects. <br> <b style="line-height:1.5">•</b> Develop and maintain an application using VueJS/Vuetify and Node.js to access the generated Allure and Axe reports after software publishes. <br> <b style="line-height:1.5">•</b>  Participate in defect and issue resolution process 
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Apr. 2020 - Present
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: QA Engineer
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-leaf
   present: true
 
 - name:
-    detail: Company B
+    detail: Cloudfy Tecnologia
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: <strong class="career-bullets">•</strong> Develop, test and maintain cloud-based system using AngularJS, Java and PL/pgSQL <br> <b style="line-height:1.5">•</b> Provide advocacy and technical direction to the platform customers <br> <b style="line-height:1.5">•</b> Responsible for developing the bank payment integration and the WhatsApp/SMS message module
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: Jun. 2019 – Apr. 2020
     i18n: company_b_date
   job:
     detail: Full Stack Developer
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-cloud
+
+- name:
+    detail: Exati Tecnologia
+    i18n: company_b
+  desc:
+    detail: <strong class="career-bullets">•</strong> Develop, test and maintenance of public lighting management software. <br> <b style="line-height:1.5">•</b> Used various technologies including Java, ActionScript and PostgreSQL to make code repairs, develop new features, and optimize the platform.
+    i18n: company_b_desc
+  date:
+    detail: Sep. 2018 – Jun. 2019
+    i18n: company_b_date
+  job:
+    detail: Full Stack Developer
+    i18n: company_b_job
+  icon: fa-lightbulb-o 
+
+- name:
+    detail: Comberweb
+    i18n: company_b
+  desc:
+    detail: <strong class="career-bullets">•</strong> Development of web applications (and its mobile version generated using Cordova) using HTML, CSS (Bootstrap), JavaScript and JQuery based on the webpage or web application mock-up created by the design team.
+    i18n: company_b_desc
+  date:
+    detail: Feb. 2018 – Sep. 2018
+    i18n: company_b_date
+  job:
+    detail: Full Stack Developer
+    i18n: company_b_job
+  icon: fa-pencil
+
+- name:
+    detail: Federal Technological University of Paraná
+    i18n: company_b
+  desc:
+    detail: <strong class="career-bullets">•</strong> Develop system modules for SEI (Sistema Eletrônico de Informações - Electronic Information System) using PHP and MySQL <br> <b style="line-height:1.5">•</b> Responsible for developing the module "Meus Processos (My processes)" and co-wrote an article describing this module. The article was published in the "XII Workshop on Information and Communication Technology of the Federal Institutions of Higher Education in Brazil", in Foz do Iguaçu.
+    i18n: company_b_desc
+  date:
+    detail: Feb. 2018 – Sep. 2018
+    i18n: company_b_date
+  job:
+    detail: Student researcher
+    i18n: company_b_job
+  icon: fa-pencil
