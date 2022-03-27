@@ -1,22 +1,16 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use Javascript to get repo's information all my repos have only one request.
+- name: MAR2S
+  i18n: cpjalpc
+  gh_user: everson-souza
+  repo: MARS
+  img: /static/assets/img/landing/mars.jpeg
+  desc: Sign representative robotic hand to aid brazilian sign language (LIBRAS) learning <br> <br> Robotic hand able to represent the handshapes of signs in Brazilian Sign Language (LIBRAS) from written words on a graphical interface in portuguese. 
 
-- name: Python
+- name: Trayker
   i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
-
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  gh_user: everson-souza
+  repo: 
+  img: /static/assets/img/landing/trayker.png
+  desc: "Automated tray collection system for restaurants and cafeterias <br> <br>Developed for the Oficinas course of the Computer Engineering program. The system is divided into four parts: 1. Adapted tables and trays; 2. Collecting robot; 3. Web interface that demonstrates in real time the status of the robot and the table and 4. Base station responsible for processing between the other parts."

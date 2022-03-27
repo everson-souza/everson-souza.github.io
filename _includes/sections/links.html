@@ -21,10 +21,18 @@
             <h4><span class="navy">{{ link.last_name }}</span> {{ link.first_name }}</h4>
             <p>{{ link.desc }}</p>
             <ul class="list-inline social-icon">
-                <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a>
-                </li>
-                <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a>
-                </li>
+                {% if link.github_username %}
+                <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
+                {% endif %}
+                {% if link.linkedin_id %}
+                <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                {% endif %}                
+                {% if link.email %}
+                <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
+                {% endif %}
+                {% if link.cv %}
+                <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                {% endif %}
             </ul>
         </div>
         </div>
