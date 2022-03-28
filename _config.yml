@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-postgres
     - name: icon-raspberrypi
-  desc: Hi! I'm Everson, a software developer with experience as a Full-stack developer and as QA engineer || Welcome to my page! # Describe yourself.
+  desc: Hi! I'm Everson, a software developer with experience as a full-stack developer and as QA engineer || Welcome to my personal page where I'll be sharing my on-going projects, contributions and experiences || Hope you enjoy it! # Describe yourself.
 
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
